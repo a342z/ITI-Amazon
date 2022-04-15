@@ -39,7 +39,7 @@ exports.userLogin = (request, response, next) => {
               email: data.email,
             },
             process.env.SECRET_KEY,
-            { expiresIn: "1d" }
+            { expiresIn: "365d" }
           );
           response.json({ data, accessToken });
           // response.redirect("http://127.0.0.1:5500/index.html")

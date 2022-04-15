@@ -40,7 +40,7 @@ import OrderDetails from "./components/OrderDetails";
       headers: { Authorization: `Bearer ${localStorage.getItem("accessToken")}` },
     }).then((res) => {
       for(let i=0;i<res.data.length;i++){
-        console.log("R",res.data[i])
+      
       dispatch(addCartFromDB(res.data[i]));
       }
     
@@ -49,10 +49,11 @@ import OrderDetails from "./components/OrderDetails";
 
     let res3 =  axios({
       method: "get",
-      url: `http://localhost:8080/orders/${localStorage.getItem("_id")}`,
+      url: `http://localhost:8080/orders/customer/${localStorage.getItem("_id")}`,
       headers: { Authorization: `Bearer ${localStorage.getItem("accessToken")}` },
       data:{role:localStorage.getItem("role")}
     }).then((res) => {
+      console.log("orders",res);
       for(let i=0;i<res.data.length;i++){
       dispatch(addOrdersFromDB(res.data[i]));
       }
@@ -89,5 +90,4 @@ import OrderDetails from "./components/OrderDetails";
     </>
   );
 }
-
 export default App;
