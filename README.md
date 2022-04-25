@@ -1,12 +1,3 @@
-# ITI-ShipShop-Gp
-
-## Team Members
-##### Abdulrahman Zaki 
-##### Adel Elfar
-##### Ahmed Kamal
-##### Ahmed Elmanzlawy
-##### Hassan Osama
-##### Reem Abdelhamid
 
 # ShipShop
 ### Online Web Store
