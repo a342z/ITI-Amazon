@@ -13,16 +13,16 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(morgan("tiny"));
 
 //CORS
- app.use(cors());
- app.use((request, response, next) => {
-   response.header("Access-Control-Allow-Origin", "*");
-   response.header(
-     "Access-Control-Allow-Methods",
-     "GET,POST,DELETE,PUT,OPTIONS"
+app.use(cors());
+app.use((request, response, next) => {
+  response.header("Access-Control-Allow-Origin", "*");
+  response.header(
+    "Access-Control-Allow-Methods",
+    "GET,POST,DELETE,PUT,OPTIONS"
   );
-   response.header("Access-Control-Allow-Headers", "Content-Type,Authorization");
-   next();
- });
+  response.header("Access-Control-Allow-Headers", "Content-Type,Authorization");
+  next();
+});
 
 //Connect to DB
 mongoose
@@ -34,7 +34,7 @@ mongoose
     console.log("DB Error.");
   });
 
-//Listen To port
+// To port
 app.listen(process.env.PORT_NUMBER);
 
 //Import Routes
@@ -52,7 +52,9 @@ const payRouter = require("./routes/payRouter");
 const messageRouter = require("./routes/messageRouter");
 const statsRouter = require("./routes/statsRouter");
 // const message = require("./routes/messageRouter");
-
+app.get("/", (req, res) => {
+  res.send("Hello World");
+});
 app.use("/payment", payRouter);
 app.use(authenticationRouter);
 app.use(productRouter);
@@ -65,7 +67,6 @@ app.use("/orders", orderRouter);
 
 app.use(messageRouter);
 app.use(statsRouter);
-
 
 //Not found MW
 app.use((request, response) => {
