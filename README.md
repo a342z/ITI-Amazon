@@ -9,6 +9,15 @@ everything, like books, Mobiles, Fashion, Electronics, and many other
 goods, either directly or as the middleman between other retailers and
 ShipShop.com millions of customers.
 - ✨Magic ✨
+
+## Team Members
+-Abdulrahman Zaki 
+-Adel Elfar
+-Ahmed Kamal
+-Ahmed Elmanzlawy
+-Hassan Osama
+-Reem Abdelhamid
+
  ## Project Description 
  
 - Any Customer can register and view available products.
@@ -129,13 +138,7 @@ http://localhost:8080/
 ```sh
 http://localhost:4200/
 ```
-## Team Members
--Abdulrahman Zaki 
--Adel Elfar
--Ahmed Kamal
--Ahmed Elmanzlawy
--Hassan Osama
--Reem Abdelhamid
+
 
 
 
