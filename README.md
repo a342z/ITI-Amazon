@@ -11,12 +11,13 @@ ShipShop.com millions of customers.
 - ✨Magic ✨
 
 ## Team Members
--Abdulrahman Zaki 
--Adel Elfar
--Ahmed Kamal
--Ahmed Elmanzlawy
--Hassan Osama
--Reem Abdelhamid
+- Abdulrahman Zaki
+- Adel Elfar
+- Ahmed Kamal
+- Ahmed Elmanzlawy
+- Hassan Osama
+- Reem Apdlhamed
+
 
  ## Project Description 
  
