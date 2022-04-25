@@ -1,9 +1,15 @@
-# ITI-Ecommerce
+# ITI-ShipShop-Gp
+
+## Team Members
+### Abdulrahman Zaki 
+### Adel Elfar
+### Ahmed Kamal
+### Ahmed Elmanzlawy
+### Hassan Osama
+### Reem Abdelhamid
+
 # ShipShop
 ### Online Web Store
-
-
-
 ShipShop is a vast Internet-based enterprise that sells almost
 everything, like books, Mobiles, Fashion, Electronics, and many other
 goods, either directly or as the middleman between other retailers and
@@ -129,13 +135,7 @@ http://localhost:8080/
 ```sh
 http://localhost:4200/
 ```
-## Team Members
--Abdulrahman Zaki 
--Adel Elfar
--Ahmed Kamal
--Ahmed Elmanzlawy
--Hassan Osama
--Reem Abdelhamid
+
 
 
 
