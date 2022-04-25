@@ -104,6 +104,10 @@ Website Pages:
 -  MUI
 -  React-Bootstrap
 
+## To Do
+- Verify Email
+- Forget Password
+- Login With Facebook
 ## Installation
 
 
